@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cypress run",
     "todo": "npx cypress run --spec \"cypress/e2e/1-getting-started/todo.cy.js\"",
-    "todo-cloud": "npx run test -- --record --key 4d31da3a-8698-4aa7-ac80-52d2c9a2169e --spec \"cypress/e2e/1-getting-started/todo.cy.js\""
+    "todo-cloud": "npx cypress run --record --key 4d31da3a-8698-4aa7-ac80-52d2c9a2169e --spec \"cypress/e2e/1-getting-started/todo.cy.js\""
   },
   "keywords": [],
   "author": "",
